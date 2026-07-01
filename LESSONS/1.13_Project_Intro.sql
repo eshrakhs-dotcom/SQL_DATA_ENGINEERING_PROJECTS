@@ -1,4 +1,4 @@
 SELECT DISTINCT
-     job_country
+     job_title.short
 FROM
      job_postings_fact;
