@@ -39,13 +39,6 @@ Key Insights:
 -GraphQL: $167.5k median salary (200 postings)
 -BitBucket, Ruby, Redisand Jupyter all appear in the top 25 list, indicating that a diverse set of skills can lead to lucrative opportunities in data engineering.
 
-A few interesting observations from the data:
-
-Rust commands the highest median salary at $210,000, although demand is relatively low (232 postings).
-Golang and Terraform tie at $184,000, but Terraform appears in 3,248 postings versus 912 for Golang, making it much more in demand.
-GraphQL, MongoDB, and FastAPI are all high-paying specialized skills, though demand is comparatively modest.
-This illustrates an important concept in labor markets: the highest-paying skills are not always the most in-demand. Technologies like Airflow, Kubernetes, SQL, and Python often appear in far more job postings, even if their median salaries are slightly lower.
-
 Takeaway: While the very top paying skill (Rust) still has a relatively low number of postings, the other skills in the top 25 list show that there are multiple pathways to high-paying roles in data engineering, especially for those with expertise in cloud technologies, big data frameworks, and programming languages that are in demand.
 
 ────────────┬───────────────┬──────────────┐
