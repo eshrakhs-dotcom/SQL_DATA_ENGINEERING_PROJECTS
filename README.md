@@ -1,6 +1,6 @@
 # SQL Data Engineering Projects
 
-A collection of SQL projects built to strengthen my data engineering and analytics skills using real-world datasets, DuckDB, and SQL.
+A collection of SQL projects built to showcase my data engineering and analytics skills using real-world datasets, DuckDB, and SQL.
 
 These projects focus on solving practical business problems through data modeling, analytical SQL, and exploratory data analysis.
 
