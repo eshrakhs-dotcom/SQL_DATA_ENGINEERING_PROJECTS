@@ -4,6 +4,7 @@ DROP TABLE IF EXISTS skills_job_dim;      -- Drop bridge table first (depends on
 DROP TABLE IF EXISTS job_postings_fact;   -- Drop fact table next (depends on company_dim)
 DROP TABLE IF EXISTS company_dim;         -- Drop parent table after dependents are gone
 DROP TABLE IF EXISTS skills_dim;          -- Drop parent table after dependents are gone
+
 CREATE TABLE company_dim (
     company_id INTEGER PRIMARY KEY,          -- Unique company ID
     name VARCHAR                             -- Company name
@@ -11,7 +12,7 @@ CREATE TABLE company_dim (
 
 CREATE TABLE skills_dim (
     skill_id INTEGER PRIMARY KEY,            -- Unique skill ID
-    skill VARCHAR,                           -- Skill name
+    skills VARCHAR,                           -- Skill name
     type VARCHAR                             -- Skill category
 );
 
@@ -46,4 +47,6 @@ CREATE TABLE skills_job_dim (
 SELECT table_name                 -- Return only the table names
 FROM information_schema.tables    -- System catalog containing metadata about all tables
 WHERE table_schema = 'main';      -- Show only tables in the 'main' schema
+
+-- Rule: CREATE = Parent → Child → Bridge | DROP = Bridge → Child → Parent
 
