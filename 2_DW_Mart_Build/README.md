@@ -28,14 +28,15 @@ Solution: End-to-end ETL pipeline that extracts CSVs from cloud storage, normali
 
 ## 🧰 Tech Stack
 
-🧰 Tech Stack
-🐤 Database: DuckDB (file-based OLAP database with GCS integration via httpfs)
-🧮 Language: SQL (DDL for schema design, DML for data loading and transformation)
-📊 Data Model: Star schema (fact + dimension + bridge tables)
-🛠️ Development: VS Code for SQL editing + Terminal for DuckDB CLI execution
-🔧 Automation: Master SQL script for pipeline orchestration
-📦 Version Control: Git/GitHub for versioned pipeline scripts
-☁️ Storage: Google Cloud Storage for source CSV files
+## 🧰 Tech Stack
+
+- 🦆 **Database:** DuckDB (file-based OLAP database with GCS integration via httpfs)
+- 🧱 **Language:** SQL (DDL for schema design, DML for data loading and transformation)
+- 📊 **Data Model:** Star schema (fact + dimension + bridge tables)
+- 🛠️ **Development:** VS Code for SQL editing + Terminal for DuckDB CLI execution
+- 🔧 **Automation:** Master SQL script for pipeline orchestration
+- 📦 **Version Control:** Git/GitHub for versioned pipeline scripts
+- ☁️ **Storage:** Google Cloud Storage for source CSV files
 
 ---
 
