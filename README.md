@@ -37,11 +37,11 @@ These projects focus on solving practical business problems through data modelin
 
 ---
 
-### [2_DW_Mart_Build](2_DW_Mart_Build/) – Data Pipeline – Data Warehouse & Mart
+###  🏗️ Production ETL Pipeline: Data Warehouse & Data Marts
 
 ![Data Pipeline Architecture](Images/1_2_Project2_Data_Pipeline.png)
 
-End-to-end ETL pipeline transforming raw CSV files from Google Cloud Storage into a normalized star schema data warehouse and specialized analytical data marts.
+End-to-end data engineering ETL pipeline transforming raw CSV files from Google Cloud Storage into a normalized star schema data warehouse and specialized analytical data marts.
 
 **Skills:** Dimensional modeling, ETL pipeline development, star schema design, data mart architecture, SQL transformations, production ETL practices, incremental loading (MERGE), DuckDB, Google Cloud Storage, Git/GitHub
 
