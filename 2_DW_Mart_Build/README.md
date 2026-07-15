@@ -142,7 +142,7 @@ The Priority Mart tracks business-defined priority roles while supporting produc
 
 ---
 
-## 🏢 Company Mart (Optional)
+## 🏢 Company Mart 
 
 ![Company Mart Schema](../Images/1_2_Company_Mart.png)
 
@@ -160,7 +160,7 @@ The Company Mart aggregates hiring activity by company, role, location, and mont
 **Key Features**
 - Uses **bridge tables** to model many-to-many relationships between companies, locations, and job title hierarchies.
 
-> **Note:** This mart is optional and can be skipped if not required.
+
 
 ---
 
